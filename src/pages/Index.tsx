@@ -1,6 +1,7 @@
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { TryOnStudio } from '@/components/TryOnStudio';
+import { EcommerceIntegration } from '@/components/EcommerceIntegration';
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <Header />
       <Hero />
       <TryOnStudio />
+      <EcommerceIntegration />
     </div>
   );
 };
