@@ -44,9 +44,20 @@ All colors MUST be HSL.
     
     --shadow-elegant: 0 25px 50px -12px hsl(263 70% 50% / 0.3);
     --shadow-glow: 0 0 50px hsl(270 70% 60% / 0.4);
+    --shadow-soft: 0 10px 15px -3px hsl(0 0% 0% / 0.1);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    /* Spacing system */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 0.75rem;
+    --space-lg: 1rem;
+    --space-xl: 1.5rem;
+    --space-2xl: 2rem;
+    --space-3xl: 3rem;
+    --space-4xl: 4rem;
 
     --radius: 0.5rem;
 
